@@ -1,0 +1,7 @@
+Flask==2.0.3
+opencv-python==4.5.5.64
+scikit-learn==1.0.2
+numpy==1.21.6
+pickle-mixin==1.0.2
+Werkzeug==2.0.3
+Jinja2==3.0.3

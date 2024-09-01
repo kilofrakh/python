@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Recognize Faces</h2>
+<p>The application will start capturing video from your webcam and recognize faces based on the data you've collected.</p>
+
+<div class="video-container mt-4 mb-4 text-center">
+    <img src="{{ url_for('video_feed') }}" class="img-fluid rounded border" alt="Video Feed">
+</div>
+
+<div class="text-center">
+    <a href="{{ url_for('index') }}" class="btn btn-secondary">Return to Home</a>
+</div>
+{% endblock %}

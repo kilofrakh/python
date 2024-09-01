@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to the SmileyFace!</h1>
+    <p class="lead">This application allows you to collect face data and recognize faces in real-time using your webcam.</p>
+    <hr class="my-4">
+    <p>Get started by collecting your face data, then proceed to recognize faces.</p>
+    <a class="btn btn-primary btn-lg mr-2" href="{{ url_for('collect_faces') }}" role="button">Collect Face Data</a>
+    <a class="btn btn-success btn-lg" href="{{ url_for('recognize_faces') }}" role="button">Recognize Faces</a>
+</div>
+{% endblock %}
